@@ -1,0 +1,46 @@
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttons-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.url-action-btn {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  object-position: center;
+  cursor: pointer;
+  transition: opacity .3s ease-in-out;
+}
+
+.url-action-btn:hover {
+  opacity: .7;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  max-width: 270px;
+}
+
+a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
