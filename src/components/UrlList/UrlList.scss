@@ -28,6 +28,10 @@ table {
   transition: opacity .3s ease-in-out;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .url-action-btn:hover {
   opacity: .7;
 }
@@ -36,6 +40,10 @@ th, td {
   text-align: left;
   padding: 10px;
   max-width: 270px;
+}
+
+td {
+  position: relative;
 }
 
 a {

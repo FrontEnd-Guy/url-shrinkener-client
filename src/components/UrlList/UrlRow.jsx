@@ -100,7 +100,10 @@ const UrlRow = ({ url, handleEdit, handleDelete }) => {
       </td>
       <td data-label="Actions" className="buttons-cell">
         {isEditing ? (
-          <SaveIcon className="url-action-btn" onClick={handleSave} disabled={!isFormValid} />
+          <SaveIcon
+            className={`url-action-btn ${!isFormValid ? 'hidden' : ''}`}
+            onClick={handleSave}
+          />
         ) : (
           <EditIcon className="url-action-btn" onClick={toggleEditing} />
         )}

@@ -7,7 +7,7 @@ import axios from 'axios';
 import { API_BASE_URL } from '../utils/constants';
 
 export const fetchUrls = async (page = 1, limit = 10) => {
-  const response = await fetch(`${API_BASE_URL}/?page=${page}&limit=${limit}`);
+  const response = await fetch(`${API_BASE_URL}?page=${page}&limit=${limit}`);
   const data = await response.json();
   return data;
 };
