@@ -18,28 +18,34 @@ This is the frontend part of a simple URL shortener application that allows user
 
 ```bash
 git clone https://github.com/FrontEnd-Guy/url-shrinkener-client.git
-cd url-shortener-client
+cd url-shrinkener-client
 ```
 
 2. **Install Dependencies**
+
 ```bash
 npm install
 ```
 
 4. **Run the Application**
+
 ```bash
 npm start
 ```
-   - This will start the development server, and open the application in your default web browser.
-   - The application will reload automatically as you make changes to the code.
+
+- This will start the development server, and open the application in your default web browser.
+- The application will reload automatically as you make changes to the code.
 
 5. **Build for Production**
+
 ```bash
 npm run build
 ```
-   - This will create a `build` directory with the optimized, minified code ready for deployment.
+
+- This will create a `build` directory with the optimized, minified code ready for deployment.
 
 ## Folder Structure
+
 - `src/`: Contains the source code of the application.
   - `api/`: Contains the functions for making HTTP requests to the backend.
   - `components/`: Contains the React components used in the application.
